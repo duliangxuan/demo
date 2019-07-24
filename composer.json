@@ -1,0 +1,16 @@
+{
+    "name": "duliangxuan/demo",
+    "description": "a test composer project",
+    "type": "project",
+    "require": {
+        "houdunwang/hdphp": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "duliangxuan",
+            "email": "1057567094@qq.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
