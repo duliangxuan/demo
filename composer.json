@@ -1,7 +1,10 @@
 {
     "name": "duliangxuan/demo",
-    "description": "test project",
+    "description": "a test composer project",
     "type": "project",
+    "require": {
+        "gregwar/captcha": "dev-master"
+    },
     "license": "MIT",
     "authors": [
         {
@@ -10,5 +13,14 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "autoload": {
+        "files": [
+            "core/Functions.php"
+        ],
+        "psr-4": {
+            "core\\": "core",
+            "web\\": "web"
+        }
+    }
+
 }
